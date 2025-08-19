@@ -1,0 +1,29 @@
+h3 {
+    color: red;
+}
+
+.outer {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    background: rgb(233, 232, 232);
+}
+
+.inner {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    margin-top: -25px;
+}
+
+#captcha {
+    width: 30px;
+    height: 30px;
+}
+
+.tbl td{
+    vertical-align: middle;
+}
