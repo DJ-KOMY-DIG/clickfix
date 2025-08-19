@@ -3,27 +3,38 @@ h3 {
 }
 
 .outer {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
     position: relative;
-    margin: 0 auto;
-    width: 400px;
-    height: 250px;
+    margin: 0 auto; 
+    width: 350px;
+    height: 100px;
     background: rgb(233, 232, 232);
 }
 
 .inner {
     width: 500px;
     height: 100px;
+
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 20px;
-    margin-top: -25px;
+    margin-top: -15px;
+}
+
+.text {
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
 }
 
 #captcha {
     width: 30px;
     height: 30px;
+    position: absolute;
+    top: -5%;
+    left: 250px;
 }
 
-.tbl td{
-    vertical-align: middle;
-}
